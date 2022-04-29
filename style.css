@@ -714,10 +714,18 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.social_div {
+    display: flex;
+    justify-content: space-between;
+}
 .social {
-    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
     margin: auto auto auto auto;
+}
+
+.col-sm-3 {
+    width: auto;
 }
 
 h2 {
@@ -1041,6 +1049,14 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .img-responsive {
+        position: relative;
+        left: 25%;
+        width: 100%;
+        max-width: 300px;
+        max-height: 300px;
+        
     }
 }
 

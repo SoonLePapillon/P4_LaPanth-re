@@ -707,6 +707,10 @@ p {
     font-size: 18px;
 }
 
+#bloc-4-portfolio p, article p {
+    font-size: 15px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
